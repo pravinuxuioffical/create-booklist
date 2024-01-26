@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="listpage">
+         <nav class="listpage-col">
+            
+               <h1>Booklist</h1>
+               <button id="add-popup">Add new</button>
+         </nav>
+
+         <div class="container">
+            <div class="container-col">
+                <h2>Rich dad poor dad</h2>
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eos libero ut tenetur veniam rerum, reiciendis animi accusamus maxime tempora dolorem magni, a debitis eveniet reprehenderit deleniti vel repudiandae soluta.</p>
+                <button onclick="deletebook(event)">delete</button>
+            </div>
+            
+            
+        </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <form>
+                <h3 style="margin-bottom: 12px;">Add book section</h3>
+                 <input placeholder="enter the title" id="bookname-input">
+                 <input placeholder="enter the author" id="author-input">
+                 <textarea id="description-input" cols="30" rows="10"></textarea>
+                 <button class="addbook">add book</button>
+                 <button class="cancelbook">cancel</button>
+
+            </form>
+        </div>
+        <script src="script.js"></script>
+
+
+
+
+    </section>
+    
+</body>
+</html>
