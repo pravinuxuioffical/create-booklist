@@ -93,8 +93,7 @@ body{
 @media (max-width: 700px){
     .container-col{
         width: 90%;
-     
-    }
+      }
     .listpage-col{
         padding: 5% 6%;
         background-color: rgba(232, 225, 255, 0.753);
