@@ -90,6 +90,21 @@ body{
          width: 30%;  
     }
 
+@media (max-width: 700px){
+    .container-col{
+        width: 90%;
+     
+    }
+    .listpage-col{
+        padding: 5% 6%;
+        background-color: rgba(232, 225, 255, 0.753);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+} 
+
 /*---- popupbox with popupoverlay and forms-----*/ 
 
   .popup-overlay{
@@ -158,6 +173,47 @@ body{
     margin-top: 10px;
     margin-right: 10px;
  }
+
+@media (max-width: 700px){
+    .popup-box{
+        width: 70%;
+        background-color: rgba(251, 250, 255, 0.96);
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    width: 90%;
+    
+    padding: 10px 16px;
+    border: 2px;
+    border-color: rgba(213, 213, 213, 0.96);
+    border-style: solid;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+  }
+  .popup-box textarea{
+    width: 90%;
+    padding: 10px 16px;
+    border: 2px;
+    border-color: rgba(213, 213, 213, 0.96);
+    border-style: solid;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+  }
+   
+} 
+
   
 
    
